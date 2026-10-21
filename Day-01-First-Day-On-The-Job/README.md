@@ -53,7 +53,8 @@ Executed:
 
 The screenshot below shows both network interfaces, including their IP addresses and network settings.
 
-![Windows Server network configuration](screenshots/01-network-configuration.png)
+![Windows Server network configuration](01-network-configuration.png)  ![NMG Home Lab Network Diagram](NMG-Home-Lab-Network-Diagram.png)
+
 
 **Verification:** Confirmed that NMG-DC01 has two configured network interfaces serving different purposes.
 
@@ -76,7 +77,7 @@ After promotion, Windows Server restarted to complete the configuration.
 
 The screenshot below shows Active Directory Users and Computers, confirming that NMG.com and its default containers were created.
 
-![Active Directory Users and Computers](screenshots/02-active-directory.png)
+![Active Directory Users and Computers](02-active-directory.png)
 
 **Verification:** Confirmed that the Active Directory domain was accessible through the management console.
 
@@ -94,11 +95,6 @@ Executed:
 
 **Observed result:** NMG.com successfully resolved to `192.168.50.10`.
 
-### Screenshot 3 — DNS Resolution
-
-The screenshot below demonstrates successful domain name resolution using the local DNS server.
-
-![DNS resolution verification](screenshots/03-dns-resolution.png)
 
 **Verification:** Confirmed that the DNS server could resolve NMG.com to the Domain Controller's internal IP address.
 
