@@ -42,7 +42,7 @@ Each OU represents a department in the simulated organization.
 
 ### Screenshot 1 — Creating the Finance OU
 
-![Finance Organizational Unit](screenshots/01-finance-ou.png)
+![Finance Organizational Unit](screenshots/day2-finance-security-group.png)
 
 *Figure 1: The Finance Organizational Unit successfully created under the NMG.com domain.*
 
@@ -50,7 +50,7 @@ This was the first step in establishing a departmental structure in Active Direc
 
 ### Screenshot 2 — Final Organizational Unit Structure
 
-![Four Organizational Units](screenshots/02-all-organizational-units.png)
+![Four Organizational Units](screenshots/day2-four-organizational-units.png)
 
 *Figure 2: The Finance, HR, IT, and Operations Organizational Units organized under NMG.com.*
 
@@ -80,37 +80,13 @@ The lab configuration uses:
 | IT | IT-Users | Global | Security |
 | Operations | Operations-Users | Global | Security |
 
-### Screenshot 3 — Finance Security Group
-
-![Finance Security Group](screenshots/03-finance-security-group.png)
-
-*Figure 3: Finance-Users security group created inside the Finance OU.*
-
 The Finance-Users group provides a way to manage permissions collectively for authorized Finance employees.
 
-### Screenshot 4 — HR Security Group
+The HR-Users group can be used to manage permissions for authorized Human Resources employees.
 
-![HR Security Group](screenshots/04-hr-security-group.png)
+The IT-Users group can be used to manage permissions for IT personnel.
 
-*Figure 4: HR-Users security group created inside the HR OU.*
-
-This group can be used to manage permissions for authorized Human Resources employees.
-
-### Screenshot 5 — IT Security Group
-
-![IT Security Group](screenshots/05-it-security-group.png)
-
-*Figure 5: IT-Users security group created inside the IT OU.*
-
-This group can be used to manage permissions for IT personnel.
-
-### Screenshot 6 — Operations Security Group
-
-![Operations Security Group](screenshots/06-operations-security-group.png)
-
-*Figure 6: Operations-Users security group created inside the Operations OU.*
-
-This group can be used to manage permissions for authorized Operations employees.
+The Operations-Users group can be used to manage permissions for authorized Operations employees.
 
 ### Why Security Groups Matter
 
@@ -210,6 +186,3 @@ By creating departmental Organizational Units and configuring security groups, I
 
 This foundation will support future exercises involving user account creation, Group Policy, access control, and Active Directory security.
 
-**Project:** TotalThreat Active Directory Home Lab  
-**Day:** 2 — Organizing Chaos  
-**Domain:** NMG.com
