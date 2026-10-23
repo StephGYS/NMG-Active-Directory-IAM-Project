@@ -44,11 +44,11 @@ I also configured employee organization attributes, including job titles and dep
 
 **Evidence — Finance employee accounts**
 
-![Finance employee accounts](images/day03-finance-users.png)
+![Finance employee accounts](images/day3-finance-users.png)
 
 **Evidence — David Chen's organizational attributes**
 
-![David Chen organizational attributes](images/day03-david-chen-attributes.png)
+![David Chen organizational attributes](images/day3-david-chen-attributes.png)
 
 ### 3.2 Human Resources Department
 
@@ -64,7 +64,7 @@ These accounts were placed inside the HR OU.
 
 **Evidence — HR employee accounts**
 
-![HR employee accounts](images/day03-hr-users.png)
+![HR employee accounts](images/day3-hr-users.png)
 
 ### 3.3 Information Technology Department
 
@@ -83,7 +83,7 @@ Although these employees work in the same department, their job responsibilities
 
 **Evidence — IT employee accounts**
 
-![IT employee accounts](images/day03-it-users.png)
+![IT employee accounts](images/day3-it-users.png)
 
 ### 3.4 Operations Department
 
@@ -102,7 +102,7 @@ Jane Cooper's account will also be used in future access-management exercises.
 
 **Evidence — Operations employee accounts**
 
-![Operations employee accounts](images/day03-operations-users.png)
+![Operations employee accounts](images/day3-operations-users.png)
 
 ## 4. Phase 2 — Security Group Membership
 
@@ -118,7 +118,7 @@ I verified the membership through the group's **Members** tab.
 
 **Evidence — Finance security group**
 
-![Finance group membership](images/day03-finance-group-members.png)
+![Finance group membership](images/day3-finance-group-members.png)
 
 ### 4.2 HR-Users
 
@@ -126,7 +126,7 @@ Added Sandra Torres, James Whitfield, and Michelle Grant to HR-Users.
 
 **Evidence — HR security group**
 
-![HR group membership](images/day03-hr-group-members.png)
+![HR group membership](images/day3-hr-group-members.png)
 
 ### 4.3 IT-Users
 
@@ -134,7 +134,7 @@ Added Marcus Johnson, Priya Patel, Tyler Brooks, and Aisha Coleman to IT-Users.
 
 **Evidence — IT security group**
 
-![IT group membership](images/day03-it-group-members.png)
+![IT group membership](images/day3-it-group-members.png)
 
 ### 4.4 Operations-Users
 
@@ -142,7 +142,7 @@ Added Brian Foster, Jane Cooper, Carlos Rivera, and Natalie Ross to Operations-U
 
 **Evidence — Operations security group**
 
-![Operations group membership](images/day03-operations-group-members.png)
+![Operations group membership](images/day3-operations-group-members.png)
 
 ### Important Security Observation
 
@@ -188,7 +188,7 @@ This confirmed that the 15 employee accounts had been assigned to the intended d
 
 **Evidence — PowerShell verification**
 
-![PowerShell group membership verification](images/day03-powershell-verification.png)
+![PowerShell group membership verification](images/day3-powershell-verification.png)
 
 ## 6. Cybersecurity Concepts Learned
 
