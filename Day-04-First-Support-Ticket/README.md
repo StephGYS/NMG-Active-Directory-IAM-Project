@@ -70,7 +70,7 @@ After the change, I verified that her canonical name was:
 
 `NMG.com/HR/Jane Cooper`
 
-![Jane Corrected OU](screenshots/jane-corrected-ou.png)
+![Jane Corrected OU](screenshots/jane-corrected-ou-to-hr.png)
 
 This placed Jane in the appropriate organizational structure for her HR role.
 
@@ -82,7 +82,7 @@ I made the following changes:
 - Removed Jane from Operations-Users.
 - Preserved Domain Users membership.
 
-![Jane Corrected Group Membership](screenshots/jane-corrected-membership.png)
+![Jane Corrected Group Membership](screenshots/jane-corrected-membership-to-hr-users.png)
 
 These corrections followed the Principle of Least Privilege and Role-Based Access Control.
 
